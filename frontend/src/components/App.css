@@ -1,0 +1,91 @@
+
+/* Main container */
+#root, .App, div {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+General body styles
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.App, .card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Header styles */
+h1, h2 {
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  color: #4CAF50;
+}
+
+/* Navigation styles */
+.navbar, nav {
+  background-color: #007bff;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul, nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li, nav ul li {
+  margin-left: 20px;
+}
+
+.navbar a, nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover, nav ul li a:hover {
+  color: #e6e6e6;
+}
+
+li {
+  background: gray;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:hover {
+  background: #242323;
+  color: black;
+}
+
+/* Styling for Links */
+a {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+a:hover {
+  color: black;
+}
