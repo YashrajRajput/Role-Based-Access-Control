@@ -40,8 +40,7 @@ npm install
 2. Start the Frontend
 
 - cd frontend
-Install dependencies (if not already installed)
-- npm install
+- npm install (Install dependencies)
 - npm run dev
 
 
