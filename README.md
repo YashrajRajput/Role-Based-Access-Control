@@ -33,16 +33,16 @@ npm install
 
 1. Start the Backend
 
-cd backend
-python app.py
+- cd backend
+- python app.py
 
 
 2. Start the Frontend
 
-cd frontend
+- cd frontend
 Install dependencies (if not already installed)
-npm install
-npm run dev
+- npm install
+- npm run dev
 
 
 
