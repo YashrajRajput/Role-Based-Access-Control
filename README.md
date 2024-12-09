@@ -40,7 +40,7 @@ python app.py
 2. Start the Frontend
 
 cd frontend
-# Install dependencies (if not already installed)
+Install dependencies (if not already installed)
 npm install
 npm run dev
 
